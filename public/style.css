@@ -1,0 +1,62 @@
+body {
+             background-image: url("https://thumbs.dreamstime.com/b/seamless-marble-pattern-texture-background-abstract-wood-surface-liquid-color-effect-minimal-oil-ink-splash-vector-backdrop-136403386.jpg");
+             
+         background-repeat: no-repeat;
+         background-size: cover;
+             color: white;
+            text-align: center;}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+img.rounded {
+            border-radius: 20px;
+            transition: all 0.3s;
+            width: 150px;
+            height: 100px;
+        }
+
+        img.rounded:hover {
+            transform: scale(1.1);
+        }
+      
+}
+.black-box {
+        background-color: black;
+        color: white;
+        padding: 1px;
+        border-radius: 5px;
+            transition: all 0.3s;
+  max-width: 200px;
+      }
+a{
+  color: black;
+  font-size: 1px;
+}
+iframe {
+background-color: #fff;
+color:#000 
+}
+h1 {  color: black;
+}
+
+#overlay-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#overlay-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.hidden {
+  display: none;
+}
